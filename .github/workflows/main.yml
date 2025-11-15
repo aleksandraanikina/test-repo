@@ -28,7 +28,7 @@ jobs:
       - name: Prepare static files
         run: |
           mkdir -p public
-          cp for-testing.html public/
+          cp index.html public/
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v3
